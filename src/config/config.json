@@ -1,0 +1,12 @@
+{
+  "server": {
+    "core": {
+      "domain": "https://api.px-group.com",
+      "folder": "/pxg_core"
+    },
+    "vq": {
+      "domain": "https://api.px-group.com",
+      "folder": "/vq"
+    }
+  }
+}
