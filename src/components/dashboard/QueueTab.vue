@@ -188,6 +188,7 @@ export default Vue.extend({
           const search = this.executiveSearch.toUpperCase();
 
           if (
+            executive.executive_id.toUpperCase().includes(search.toUpperCase()) ||
             executive.name.toUpperCase().includes(search.toUpperCase()) ||
             executive.lastname.toUpperCase().includes(search.toUpperCase()) ||
             executive.position.toUpperCase().includes(search.toUpperCase())

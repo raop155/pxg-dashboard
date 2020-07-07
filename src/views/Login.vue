@@ -24,6 +24,9 @@ import { mapMutations } from "vuex";
 
 export default Vue.extend({
   name: "login",
+  props: {
+    test: String
+  },
   data() {
     return {
       username: "",

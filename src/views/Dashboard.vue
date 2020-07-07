@@ -63,6 +63,9 @@ export default Vue.extend({
     DemographyTab,
     QueueTab
   },
+  props: {
+    test: String
+  },
   data() {
     return {
       progressBar: {
